@@ -1,0 +1,94 @@
+ 
+# ==========================================
+#               COMPACT LANGUAGES
+# ==========================================
+
+# --- C / C++ ---
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+Debug/
+Release/
+x64/
+x86/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+.venv
+pip-log.txt
+*.pkl
+*.joblib
+*.h5
+
+# --- Java & Kotlin ---
+*.class
+*.log
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+target/
+
+# --- JavaScript / Node.js ---
+node_modules/
+jspm_packages/
+.npm
+.eslintcache
+dist/
+out/
+.next/
+.nuxt/
+
+# ==========================================
+#         DATABASES & DESIGN TOOLS
+# ==========================================
+
+# --- Databases / SQL ---
+*.sql
+*.sqlite
+*.db
+*.mdb
+*.ldf
+*.mdf
+
+# --- Design / UI ---
+*.figma
+*.sketch
+*.psd
+*.ai
+
+# ==========================================
+#         IDE & OPERATING SYSTEMS
+# ==========================================
+
+# --- IDEs (VS Code, Visual Studio, JetBrains) ---
+.vscode/
+!.vscode/extensions.json
+.vs/
+*.sln
+*.suo
+*.user
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# --- Operating Systems ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
